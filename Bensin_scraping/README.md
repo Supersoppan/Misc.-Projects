@@ -24,9 +24,11 @@ If you want to set it up on your own so that it everyday, then the following wil
 6) Press 'Create Task'
 7) Select 'Windows 10' in 'Configure for:' on the 'General' tab
 8) On the 'Triggers' tab, press 'New...' 
-  i. Set 'Begin the task:' to 'At log on'
-   ii. Tick 'Delay task for:' and set it to '30 seconds'
-   iii. Tick 'Enabled'
+
+    i. Set 'Begin the task:' to 'At log on'
+    ii. Tick 'Delay task for:' and set it to '30 seconds'
+    iii. Tick 'Enabled'
+    
 9) On the 'Actions' tab, press 'New'
    i. In 'Action:' select 'Start a program'
    ii. On the line 'Program/script:' select the python version that you're using. Mine is installed at 'C:\Users\sleep\AppData\Local\Programs\Python\Python39\python.exe'
