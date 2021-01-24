@@ -46,5 +46,7 @@ Everytime you start your computer, the scheduler will start Bensin_Scraping.py w
 
 ## To-do list
 [] Remove redundancies before they're added to the main storage file Scraped.xlsx OR have a seperate program that removes redundancies but only when you call on it
+
 [] Introduce Swedish letters to make it more readable
+
 [] Look into and setup an SQL server so you can pull data from the server instead of an excel file.
