@@ -27,7 +27,7 @@ If you want to set it up on your own so that it everyday, then the following wil
     i) Set 'Begin the task:' to 'At log on'
     ii) Tick 'Delay task for:' and set it to '30 seconds'
     iii) Tick 'Enabled'
-9) on the 'Actions' tab, press 'New'
+9) on the 'Actions' tab, press 'New':
     i) In 'Action:' select 'Start a program'
     ii) On the line 'Program/script:' select the python version that you're using. Mine is installed at 'C:\Users\sleep\AppData\Local\Programs\Python\Python39\python.exe'
     iii) In 'Add arguments', add 'Bensin_Scraping.py'
