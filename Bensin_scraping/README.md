@@ -40,3 +40,8 @@ Everytime you start your computer, the scheduler will start Bensin_Scraping.py w
 1) Remove redundancies before they're added to the main storage file Scraped.xlsx OR have a seperate program that removes redundancies but only when you call on it
 2) Introduce Swedish letters to make it more readable
 3) Look into and setup an SQL server so you can pull data from the server instead of an excel file.
+
+- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Not Pure Poole.
+
+    1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
+    2. Add the below lines into your `_config.yml`.
