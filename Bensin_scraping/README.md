@@ -28,14 +28,18 @@ If you want to set it up on your own so that it everyday, then the following wil
     i. Set 'Begin the task:' to 'At log on'
 
     ii. Tick 'Delay task for:' and set it to '30 seconds'
-    
+
     iii. Tick 'Enabled'
 
 9) On the 'Actions' tab, press 'New'
-   i. In 'Action:' select 'Start a program'
-   ii. On the line 'Program/script:' select the python version that you're using. Mine is installed at 'C:\Users\sleep\AppData\Local\Programs\Python\Python39\python.exe'
-   iii. In 'Add arguments', add 'Bensin_Scraping.py'
-   iv. In 'Start in', add the folder where you stored 'Bensin_Scraping.py'
+
+    i. In 'Action:' select 'Start a program'
+
+    ii. On the line 'Program/script:' select the python version that you're using. Mine is installed at 'C:\Users\sleep\AppData\Local\Programs\Python\Python39\python.exe'
+    
+    iii. In 'Add arguments', add 'Bensin_Scraping.py'
+    
+    iv. In 'Start in', add the folder where you stored 'Bensin_Scraping.py'
 
 That's it!
 Everytime you start your computer, the scheduler will start Bensin_Scraping.py which will check if you've scraped that day. If you have, nothing happens. If it hasn't, then it scrapes which will take about 5-10 seconds and conclude by saying how many pages were collected.
